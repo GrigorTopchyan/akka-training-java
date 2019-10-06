@@ -1,4 +1,4 @@
-package edu.training.akka;
+package edu.training.akka.actordemo;
 
 import akka.actor.AbstractActor;
 import akka.actor.ActorRef;

@@ -1,10 +1,9 @@
-package edu.training.akka;
+package edu.training.akka.actordemo;
 
 import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
-import akka.japi.pf.ReceiveBuilder;
 
 import java.io.IOException;
 
