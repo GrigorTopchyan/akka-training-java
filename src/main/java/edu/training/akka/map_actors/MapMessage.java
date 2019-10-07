@@ -1,4 +1,4 @@
-package edu.training.akka.map_with_actor;
+package edu.training.akka.map_actors;
 
 import akka.actor.ActorRef;
 

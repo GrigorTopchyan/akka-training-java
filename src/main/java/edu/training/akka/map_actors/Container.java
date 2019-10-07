@@ -1,4 +1,4 @@
-package edu.training.akka.map_with_actor;
+package edu.training.akka.map_actors;
 
 import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
@@ -40,9 +40,10 @@ public class Container extends AbstractActor {
         }
     }
 
-
     @Override
     public Receive createReceive() {
-        return null;
+        return receiveBuilder()
+                .match(MapMessage.class,this::onMessage)
+                .build();
     }
 }

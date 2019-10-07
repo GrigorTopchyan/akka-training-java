@@ -1,4 +1,4 @@
-package edu.training.akka.map_with_actor;
+package edu.training.akka.map_actors;
 
 import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
@@ -38,8 +38,6 @@ public class Bucket extends AbstractActor {
             case "remove":
                 data.remove(key);
                 break;
-
         }
     }
-
 }
